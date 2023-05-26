@@ -1,0 +1,4 @@
+db-name: muhammad_buildtogether
+Server: localhost:3306
+username: muhammad_muhammad_BT
+pass: muhammad_BT
