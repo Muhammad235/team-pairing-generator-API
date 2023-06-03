@@ -1,12 +1,15 @@
 <?php
 
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+header("Access-Control-Allow-Methods: *");
 
 require_once('config/conn.php');
 
 $response = array();
 
-$stmt = $conn->prepare("SELECT  *FROM users");
+$stmt = $conn->prepare("SELECT  * FROM users");
 
 if ($stmt) {
     $stmt->execute();
