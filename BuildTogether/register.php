@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   //set it as object
   $fullname = $data->fullname;
   $email = $data->email;
+  
   $experience = $data->experience;
   $techprofession = $data->techprofession;
 
